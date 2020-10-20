@@ -1,6 +1,7 @@
 {
     "extends": [
-        "stylelint-config-wordpress/scss"
+        "stylelint-config-wordpress/scss",
+        "stylelint-config-standard"
     ],
     "ignoreFiles": [
         "sass/_normalize.scss"
@@ -11,7 +12,6 @@
         "block-no-empty": null,
         "no-duplicate-selectors": null,
         "font-family-no-duplicate-names": null,
-        "selector-class-pattern": null,
-        "declaration-property-unit-allowed-list": null
+        "selector-class-pattern": null
     }
 }

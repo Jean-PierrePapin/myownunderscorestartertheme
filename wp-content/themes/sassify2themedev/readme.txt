@@ -30,6 +30,9 @@ sassify2 includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
 
+= 1.1 - October 19 2020 =
+* Update the CLI for the WP theme dev workflow
+
 = 1.0 - May 12 2015 =
 * Initial release
 

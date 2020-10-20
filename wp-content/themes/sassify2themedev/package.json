@@ -22,8 +22,9 @@
     "dir-archiver": "^1.1.1",
     "lint": "^0.7.0",
     "node-sass": "^4.14.1",
-    "rtlcss": "^2.5.0",
+    "rtlcss": "^2.6.1",
     "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^20.0.0",
     "stylelint-config-wordpress": "^17.0.0",
     "wp-scripts": "^1.1.1"
   },
@@ -44,6 +45,7 @@
     "start": "",
     "watch": "node-sass sass/ -o ./ --source-map true --output-style expanded --indent-type tab --indent-width 1 -w",
     "compile:css": "node-sass sass/ -o ./ && stylelint \"**/*.css\"",
+    "checkerror:css": "npx stylelint \"**/*.css\"",
     "compile:rtl": "rtlcss style.css style-rtl.css",
     "lint:scss": "wp-scripts lint-style \"sass/**/*.scss\"",
     "lint:js": "wp-scripts lint-js \"js/*.js\"",
