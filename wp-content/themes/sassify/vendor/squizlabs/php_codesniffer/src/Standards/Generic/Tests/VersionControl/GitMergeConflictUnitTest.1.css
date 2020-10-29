@@ -8,14 +8,14 @@
  */
 
 .SettingsTabPaneWidgetType-tab-mid {
-   background: transparent url(tab_inact_mid.png) repeat-x;
-<<<<<<< HEAD
+	background: transparent url(tab_inact_mid.png) repeat-x;
+	<<<<<<< HEAD
    line-height: -25px;
-=======
+	=======
    line-height: -20px;
->>>>>>> ref/heads/feature-branch
+	>>>>>>> ref/heads/feature-branch
    cursor: pointer;
-   -moz-user-select: none;
+	-moz-user-select: none;
 }
 
 /*

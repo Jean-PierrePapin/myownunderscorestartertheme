@@ -1,108 +1,117 @@
 .HelpWidgetType-new-bug-title {
-    float: left;
+	float: left;
 }
-.HelpWidgetType-new-bug-title   {
-    float: left;
+
+.HelpWidgetType-new-bug-title {
+	float: left;
 }
-.HelpWidgetType-new-bug-title	{
-    float: left;
+
+.HelpWidgetType-new-bug-title {
+	float: left;
 }
-.HelpWidgetType-new-bug-title{
-    float: left;
+
+.HelpWidgetType-new-bug-title {
+	float: left;
 }
+
 .HelpWidgetType-new-bug-title {
 
-    float: left;
+	float: left;
 }
 
 @media screen and (max-device-width: 769px) {
 
-    header #logo img {
-        max-width: 100%;
-    }
-
-}
-
-@media screen and (max-device-width: 769px) {
-    header #logo img {
-        max-width: 100%;
-    }
+	header #logo img {
+		max-width: 100%;
+	}
 
 }
 
 @media screen and (max-device-width: 769px) {
 
-    
-
-    header #logo img {
-        max-width: 100%;
-    }
+	header #logo img {
+		max-width: 100%;
+	}
 
 }
 
-.GUITextBox.container:after {}
-
-.single-line {float: left;}
-
-#opening-brace-on-different-line
+@media screen and (max-device-width: 769px) {
 
 
-{
-    color: #FFFFFF;
+	header #logo img {
+		max-width: 100%;
+	}
+
 }
 
-#opening-brace-on-different-line-and-inline-style
+.GUITextBox.container::after {}
 
+.single-line {
+	float: left;
+}
 
-{color: #FFFFFF;}
+#opening-brace-on-different-line {
+	color: #fff;
+}
 
-@media screen and (max-device-width: 769px) { .everything-on-one-line { float: left; } }
+#opening-brace-on-different-line-and-inline-style {
+	color: #fff;
+}
+
+@media screen and (max-device-width: 769px) {
+
+	.everything-on-one-line {
+		float: left;
+	}
+}
 
 /* Document handling of comments in various places */
-.no-space-before-opening-with-comment /* comment*/{
-    float: left;
+.no-space-before-opening-with-comment {
+	float: left;
 }
 
 .space-before-opening-with-comment-on-next-line
 /* comment*/ {
-    float: left;
+	float: left;
 }
 
-#opening-brace-on-different-line-with-comment-between
-/*comment*/
-{
-    padding: 0;
+#opening-brace-on-different-line-with-comment-between {
+	padding: 0;
 }
 
-.single-line-with-comment { /* comment*/ float: left; }
+.single-line-with-comment { /* comment*/
+	float: left;
+}
 
 .multi-line-with-trailing-comment { /* comment*/
-    float: left;
+	float: left;
 }
 
 
 @media screen and (max-device-width: 769px) {
-    /*comment*/
-    .comment-line-after-nesting-class-opening {
-    }
+
+	/*comment*/
+	.comment-line-after-nesting-class-opening {
+	}
 }
 
 @media screen and (max-device-width: 769px) {
 
-    /*comment*/
-    .blank-line-and-comment-line-after-nesting-class-opening {
-    }
+	/*comment*/
+	.blank-line-and-comment-line-after-nesting-class-opening {
+	}
 }
 
 @media screen and (max-device-width: 769px) {
 
 
 
-    /* phpcs:ignore Standard.Category.Sniffname -- for reasons */
-    .blank-line-and-annotation-after-nesting-class-opening {
-    }
+	/* phpcs:ignore Standard.Category.Sniffname -- for reasons */
+	.blank-line-and-annotation-after-nesting-class-opening {
+	}
 }
 
 /* Live coding. Has to be the last test in the file. */
 .intentional-parse-error {
-    float: left
+	float: left;
+}

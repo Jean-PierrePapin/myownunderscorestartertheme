@@ -1,11 +1,10 @@
 #MetadataAdminScreen-addField-fieldType {
-    margin-left: 10px;
-    margin-right:
-    float: ;
+	margin-left: 10px;
+	margin-right: float;
 }
 
 #MetadataAdminScreen-addField-fieldType li {
-    margin-right: /* @todo */
-    margin-left: 10px;
-    float: /* Some comment. */ ;
+	margin-right: /* @todo */
+    margin-left;
+	float: /* Some comment. */ ;
 }

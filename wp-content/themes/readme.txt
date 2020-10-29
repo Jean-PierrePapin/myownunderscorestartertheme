@@ -42,7 +42,7 @@ sassify2 includes support for WooCommerce and for Infinite Scroll in Jetpack.
 * normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2018 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
 
 // "watch": "node-sass sass/ -o ./ --source-map true --output-style expanded --indent-type tab --indent-width 1 -w"
-// "compile:css": "node-sass sass/ -o ./ && stylelint '**/*.css' --fix || true && stylelint '*.css' --fix",
+// "compile:css": "node-sass sass/ -o ./ && stylelint '**/*.css' --fix || true && stylelint '*.css' --fix", || true && stylelint \"**/*.css\" --fix
 "compile:css": "node-sass sass/ -o ./ && stylelint \"**/*.css\"",
     "checkerror:css": "npx stylelint \"**/*.css\"",
     "compile:rtl": "rtlcss style.css style-rtl.css",
